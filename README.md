@@ -102,6 +102,41 @@ OTT Churn Analysis
 - Churn by Contract Type
 - Churn by State and Country
 
+## 📊 Visualizations
+
+The project includes visualizations to make churn patterns and customer-risk insights easier to understand.
+
+| Visualization | Business Purpose |
+|---|---|
+| Monthly Churn Trend | Identifies periods with unusually high customer churn |
+| Churn Rate by Plan Type | Compares churn across Basic, Standard, and Premium plans |
+| Churn Rate by State | Highlights locations requiring further investigation |
+| Contract Type Analysis | Compares monthly and annual subscriber retention |
+| Correlation Heatmap | Examines relationships among churn score, escalations, and churn status |
+| Customer Risk Segmentation | Groups customers into low-, medium-, and high-churn-risk segments |
+
+> Add your saved chart images to the `images/` folder and display them here.
+
+```markdown
+![Churn Rate by Plan Type](images/churn_by_plan.png)
+
+![Monthly Churn Trend](images/monthly_churn_trend.png)
+```
+
+## 🧠 Skills Demonstrated
+
+Through this project, I demonstrated practical data analytics skills, including:
+
+- Extracting and querying relational data with **SQL and SQLite**
+- Connecting a SQL database to **Python**
+- Cleaning, transforming, and validating data using **Pandas and NumPy**
+- Handling missing values, duplicates, inconsistent labels, and date columns
+- Creating business KPIs such as churn rate, retention rate, ARPU, tenure, revenue loss, and CLTV impact
+- Performing exploratory data analysis using grouping, aggregation, and pivot tables
+- Creating business-focused visualizations with **Matplotlib and Seaborn**
+- Converting analytical findings into actionable customer-retention recommendations
+- Documenting a complete end-to-end analytics project for GitHub
+
 ## 💡 Recommendations
 
 - Focus retention campaigns on customers with high churn risk and high CLTV.
