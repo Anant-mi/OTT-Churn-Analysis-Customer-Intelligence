@@ -111,8 +111,5 @@ OTT Churn Analysis
 - Use support escalations and CSAT scores as early warning signals for churn.
 
 
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+
 
