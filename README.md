@@ -108,7 +108,7 @@ The project includes visualizations to make churn patterns and customer-risk ins
 
 | Visualization | Business Purpose |
 
-### Monthly Churn Trend
+### 📅 Monthly Churn Trend
 Churn spiked sharply in **September 2024**, more than doubling compared to surrounding months — a key signal investigated further in the insights section.
 
 ## [Monthly Churn Trend] - <img width="840" height="917" alt="WhatsApp Image 2026-09-11 at 2 04 02 AM" src="https://github.com/user-attachments/assets/95da7fa9-c004-485e-b14a-6aa0999eeb01" />
@@ -116,25 +116,36 @@ Churn spiked sharply in **September 2024**, more than doubling compared to surro
 
 ---
 
-### Churn by Plan Type
+### 📦 Churn by Plan Type
 The **Basic plan** shows a churn rate of **60%**, nearly 3x higher than Standard (22%) and over 4x higher than Premium (14%) — despite Basic being the entry-level, lowest-revenue tier.
 
-![Churn by Plan Type]
+## [Churn by Plan Type] - <img width="871" height="661" alt="WhatsApp Image 2026-09-11 at 2 06 50 AM" src="https://github.com/user-attachments/assets/1995d0e0-6631-495f-8cda-9a8d64e91eac" />
+
 
 ---
 
-### Churn by State
+### 🗺️ Churn by State
 **Karnataka** emerges as the most affected state, with a churn rate of 100% among its (small) customer base — flagged for further investigation into regional pricing, service quality, or competitor activity.
 
-![Churn by State](images/churn_by_state.png)
+## [Churn by State] - <img width="863" height="581" alt="WhatsApp Image 2026-09-11 at 2 07 41 AM" src="https://github.com/user-attachments/assets/7d7bdc20-4a38-4777-b588-462c63ca3c73" />
+
 
 ---
 
-### Correlation Heatmap
+### 🔥 Correlation Heatmap
 Support **escalations** and **churn_score** show a strong positive correlation with churn (**0.77** and **0.86** respectively), confirming that customer support friction is a leading indicator of churn risk — not just a side effect of it.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+## [Correlation Heatmap] - <img width="859" height="1001" alt="WhatsApp Image 2026-09-11 at 2 10 24 AM" src="https://github.com/user-attachments/assets/570be055-dbf2-4ba0-9f85-b988acb5e0db" />
 
+### 🔗 Pairplot (All Features)
+A seaborn pairplot across all encoded features, used to visually scan for relationships and separability between churned and non-churned customers — churn_score, churn_flag, and escalations show the clearest visual clustering by churn outcome.
+
+## [Pairplot] - <img width="851" height="747" alt="WhatsApp Image 2026-09-11 at 2 11 10 AM" src="https://github.com/user-attachments/assets/c76004b5-4f30-444d-9dca-7f938f19bb2c" />
+
+### 👥 Plan Type vs Monthly Charges by Gender & Churn Risk
+A multi-dimensional comparison (catplot/FacetGrid) breaking down monthly charges by plan type, split by gender and faceted by churn risk tier — helping surface whether pricing or gender patterns differ across risk segments.
+
+## [Plan Type vs Monthly Charges] - <img width="818" height="744" alt="WhatsApp Image 2026-09-11 at 2 11 38 AM" src="https://github.com/user-attachments/assets/90843cc9-9ab8-4333-9697-204dd251ca18" />
 
 ## 🧠 Skills Demonstrated
 
