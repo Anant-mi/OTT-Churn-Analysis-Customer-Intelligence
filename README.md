@@ -1,8 +1,8 @@
-# OTT Churn Analysis & Customer Intelligence
+#  📊  OTT Churn Analysis & Customer Intelligence
 
 An end-to-end data analytics project that examines customer churn in an OTT subscription business. The project combines customer, subscription, and support data to identify churn patterns, high-risk segments, revenue loss, and practical retention opportunities.
 
-## Business Problem
+##  🎯  Business Problem
 
 Customer churn directly affects subscription revenue and customer lifetime value. This project answers:
 
@@ -11,7 +11,7 @@ Customer churn directly affects subscription revenue and customer lifetime value
 - What revenue and CLTV are at risk?
 - What actions can help improve customer retention?
 
-## Key Insights
+## ✨ Key Insights
 
 - Overall churn rate: **28.6%**
 - Retention rate: **71.4%**
@@ -21,7 +21,7 @@ Customer churn directly affects subscription revenue and customer lifetime value
 - Karnataka and September 2024 were highlighted as major churn areas.
 - Churn resulted in measurable revenue loss and CLTV erosion.
 
-## Tech Stack
+##  🛠️ Tech Stack
 
 - **Python**
 - **SQL / SQLite**
@@ -31,7 +31,7 @@ Customer churn directly affects subscription revenue and customer lifetime value
 - **Matplotlib** - charts and visual analysis
 - **Seaborn** - statistical visualizations
 
-## Data Sources
+## 🗂️ Data Sources
 
 The analysis integrates three relational tables:
 
@@ -41,7 +41,7 @@ The analysis integrates three relational tables:
 | `db_subscription` | Subscription plan, contract, charges, CLTV, and churn data |
 | `db_support` | Complaints, escalations, CSAT score, and customer feedback |
 
-## Project Workflow
+## 🔄 Project Workflow
 
 ```text
 OTT Churn Analysis
@@ -88,7 +88,7 @@ OTT Churn Analysis
     └── Encourage migration from monthly to annual contracts
 ```
 
-## Key Metrics Calculated
+## 📈 Key Metrics Calculated
 
 - Churn Rate
 - Retention Rate
@@ -102,7 +102,7 @@ OTT Churn Analysis
 - Churn by Contract Type
 - Churn by State and Country
 
-## Recommendations
+## 💡 Recommendations
 
 - Focus retention campaigns on customers with high churn risk and high CLTV.
 - Encourage monthly subscribers to move to annual contracts.
