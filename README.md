@@ -110,19 +110,7 @@ OTT Churn Analysis
 - Review the causes of higher churn in Karnataka and during September 2024.
 - Use support escalations and CSAT scores as early warning signals for churn.
 
-## Suggested Repository Structure
 
-```text
-ott-churn-analysis/
-│
-├── data/
-│   └── customer_churn.db
-├── notebooks/
-│   └── churn_analysis.ipynb
-├── images/
-│   └── dashboard_and_charts.png
-├── reports/
-│   └── churn_analysis_report.pdf
 ├── README.md
 ├── requirements.txt
 └── .gitignore
