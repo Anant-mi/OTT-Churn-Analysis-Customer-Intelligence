@@ -107,13 +107,35 @@ OTT Churn Analysis
 The project includes visualizations to make churn patterns and customer-risk insights easier to understand.
 
 | Visualization | Business Purpose |
-|---|---|
-| Monthly Churn Trend | Identifies periods with unusually high customer churn |
-| Churn Rate by Plan Type | Compares churn across Basic, Standard, and Premium plans |
-| Churn Rate by State | Highlights locations requiring further investigation |
-| Contract Type Analysis | Compares monthly and annual subscriber retention |
-| Correlation Heatmap | Examines relationships among churn score, escalations, and churn status |
-| Customer Risk Segmentation | Groups customers into low-, medium-, and high-churn-risk segments |
+
+## 📈 Visualizations
+
+### Monthly Churn Trend
+Churn spiked sharply in **September 2024**, more than doubling compared to surrounding months — a key signal investigated further in the insights section.
+
+![Monthly Churn Trend](images/monthly_churn_trend.png)
+
+---
+
+### Churn by Plan Type
+The **Basic plan** shows a churn rate of **60%**, nearly 3x higher than Standard (22%) and over 4x higher than Premium (14%) — despite Basic being the entry-level, lowest-revenue tier.
+
+![Churn by Plan Type](<img width="840" height="917" alt="WhatsApp Image 2026-09-11 at 2 04 02 AM" src="https://github.com/user-attachments/assets/288bd429-83b2-42b8-a25b-50184f8fed3c" />
+)
+
+---
+
+### Churn by State
+**Karnataka** emerges as the most affected state, with a churn rate of 100% among its (small) customer base — flagged for further investigation into regional pricing, service quality, or competitor activity.
+
+![Churn by State](images/churn_by_state.png)
+
+---
+
+### Correlation Heatmap
+Support **escalations** and **churn_score** show a strong positive correlation with churn (**0.77** and **0.86** respectively), confirming that customer support friction is a leading indicator of churn risk — not just a side effect of it.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 
 ## 🧠 Skills Demonstrated
