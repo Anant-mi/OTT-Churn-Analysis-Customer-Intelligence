@@ -115,13 +115,6 @@ The project includes visualizations to make churn patterns and customer-risk ins
 | Correlation Heatmap | Examines relationships among churn score, escalations, and churn status |
 | Customer Risk Segmentation | Groups customers into low-, medium-, and high-churn-risk segments |
 
-> Add your saved chart images to the `images/` folder and display them here.
-
-```markdown
-![Churn Rate by Plan Type](images/churn_by_plan.png)
-
-![Monthly Churn Trend](images/monthly_churn_trend.png)
-```
 
 ## 🧠 Skills Demonstrated
 
