@@ -108,20 +108,18 @@ The project includes visualizations to make churn patterns and customer-risk ins
 
 | Visualization | Business Purpose |
 
-## 📈 Visualizations
-
 ### Monthly Churn Trend
 Churn spiked sharply in **September 2024**, more than doubling compared to surrounding months — a key signal investigated further in the insights section.
 
-![Monthly Churn Trend](images/monthly_churn_trend.png)
+## [Monthly Churn Trend] - <img width="840" height="917" alt="WhatsApp Image 2026-09-11 at 2 04 02 AM" src="https://github.com/user-attachments/assets/95da7fa9-c004-485e-b14a-6aa0999eeb01" />
+
 
 ---
 
 ### Churn by Plan Type
 The **Basic plan** shows a churn rate of **60%**, nearly 3x higher than Standard (22%) and over 4x higher than Premium (14%) — despite Basic being the entry-level, lowest-revenue tier.
 
-![Churn by Plan Type](<img width="840" height="917" alt="WhatsApp Image 2026-09-11 at 2 04 02 AM" src="https://github.com/user-attachments/assets/288bd429-83b2-42b8-a25b-50184f8fed3c" />
-)
+![Churn by Plan Type]
 
 ---
 
